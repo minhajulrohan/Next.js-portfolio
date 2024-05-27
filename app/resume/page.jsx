@@ -31,7 +31,7 @@ const aboutData = [
 const experienceData = [
   {
     title: "My Experience",
-    description: "I am Minhajul Islam Ruhan. I provide a premium website designing service that includes all 2024 standard design elements and offers clients unique and innovative responsive web solutions that will completely transform the way they do business.",
+    description: "I am Minhajul Islam Ruhan. I provide a premium website designing service that includes all the standard design elements of 2024 and offers clients unique and innovative responsive web solutions that will completely transform the way they do business. Hopeful as a junior developer.",
     items: [
       {
         companyName:"Freelancer at Upwork, Fiver, ",
@@ -60,7 +60,7 @@ const experienceData = [
 const educationData = [
   {
     title: "My Education",
-    description: "I am Minhajul Islam Ruhan. I provide a premium website designing service that includes all 2024 standard design elements and offers clients unique and innovative responsive web solutions that will completely transform the way they do business.",
+    description: "Hi I have done my learning from youtube and I am doing my learning from different resources and always trying something new skiil. I will know more in the future, although software developers have to work with new technologies all the time. Share with you how my learning experience was.",
     items: [
       {
         institute: "LWS Learn With Sumit",
@@ -108,7 +108,7 @@ const Resume = () => {
       className="min-h-[80vh] flex items-center justify-center py-12 xl:py-0"
     >
       <div className="container mx-auto">
-        <Tabs defaultValue="experience" className="flex flex-col xl:flex-row gap-[60px]">
+        <Tabs defaultValue="experience" className="flex flex-col xl:flex-row gap-[50px]">
           <TabsList className="flex flex-col xl:flex-col w-full max-w-[380px] mx-auto xl:mx-0 gap-6">
             <TabsTrigger value="experience">Experience</TabsTrigger>
             <TabsTrigger value="education">Education</TabsTrigger>
@@ -127,7 +127,7 @@ const Resume = () => {
           <ul className="">
             {exp.items.map((expItem, index) => { // Corrected this line
               return (
-                <li key={index} className="bg-accent text-primary h-[184px] py-2 px-10 rounded-xl flex flex-col justify-center items-center lg:items-start gap-1 "> {/* Added key prop here */}
+                <li key={index} className="bg-accent text-primary h-[184px] py-2 px-8 rounded-xl flex flex-col justify-center items-center lg:items-start gap-1 "> {/* Added key prop here */}
                   <p className="text-xl font-semibold">{expItem.companyName}</p>
                   <p className="text-md font-semibold">{expItem.position}</p>
                   <p className="text-md font-semibold">{expItem.duration}</p>
@@ -169,7 +169,7 @@ const Resume = () => {
                     <div className="flex flex-wrap justify-center xl:justify-start gap-4 mt-4">
                     <ul className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-4 xl-gap-[30px]">
                       {skill.skillList.map((skillItem, idx) => (
-                        <li key={idx} className="m-5 p-5">
+                        <li key={idx} className="m-1 p-2">
                           <TooltipProvider delayDuration={100}>
                             <Tooltip>
                             <TooltipTrigger className="w-[150px] h-[150px] bg-[#232329] rounded-xl flex justify-center items-center group-hover:text-accent">
