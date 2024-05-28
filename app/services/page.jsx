@@ -8,7 +8,7 @@ const service = [
   {
     id: 1,
     name: "Web Developer",
-    desc: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Amet deserunt ipsam laborum. Facere, soluta nemo. Et eius accusamus reiciendis sapiente?",
+    desc: "I am a professional web developer with extensive knowledge and experience in various aspects of website design and development. HTML, CSS, JavaScript, and various frameworks (eg: React.js, Next.js) and backend technologies (Node.js, Laravel). work with I am skilled in custom web application development, responsive design, and user-friendly interface design. Proficient in database management (MySQL, MongoDB) and API integration. We give utmost importance to the client's needs and goals in every project, and are committed to providing the best solutions through accurate and timely delivery. I am dedicated to my work, always try to stay updated about new technologies and tools. Choose me for your web development needs, I will provide you with the highest quality service.",
     href: "",
   },
   {
