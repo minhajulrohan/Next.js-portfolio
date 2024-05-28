@@ -23,7 +23,7 @@ const page = () => {
             </p>
           
           {/* Button and Social */}
-          <div className="flex flex-col xl:flex-row items-center gap-2 m-2">
+          <div className="flex flex-col xl:flex-row items-center gap-2 m-5">
             <Link href="https://drive.google.com/file/d/1V5H0WCmwYdNzRAtl_fdgBV_f_ItfURsS/view?usp=drive_link">
               <Button variant="outline" size="lg" className="uppercase flex items-center gap-2">
               <span className="">Download CV</span>
