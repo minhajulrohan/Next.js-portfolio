@@ -11,11 +11,11 @@ const stats = [
     text:"Satisfied clients",
   },
   {
-    num:300,
+    num:20,
     text:"Project Complete",
   },
   {
-    num:700,
+    num:20,
     text:"Reviews given",
   }
 ]
