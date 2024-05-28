@@ -6,7 +6,7 @@ const Photo = () => {
   return (
     <div className="w-full h-full relative">
       <motion.div initial={{opacity:"0"}} animate={{opacity: 1, transition: {delay:2 , duration: 0.4, ease: "easeIn"}}}>
-        <div className="w-[370px] h-[370px] xl:w-[400px] xl:h-[400px] mix-blend-lighten absolute xl:mt-10">
+        <div className="w-[360px] h-[360px] xl:w-[400px] xl:h-[400px] mix-blend-lighten absolute xl:mt-10">
           <Image className="w-full h-full md:mr-5"
             src="/assets/myimage.jpg" 
             priority 
