@@ -58,7 +58,7 @@ const services = () => {
                 </Link>
                 </div>
                 {/* description */}
-                <p className="text-white/60 w-full">{servi.desc}</p>
+                <p className="text-white/60 w-full h-20">{servi.desc}</p>
                 <div className="border border-white/20 w-full"></div>
               </div>
             )
