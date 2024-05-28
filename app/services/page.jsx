@@ -14,21 +14,21 @@ const service = [
   {
     id: 2,
     name: "UI/UX Designer",
-    desc: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Amet deserunt ipsam laborum. Facere, soluta nemo. Et eius accusamus reiciendis sapiente?",
+    desc: "I am an experienced UI/UX designer, specializing in user experience and interface design. Over the past five years, I have worked on a variety of projects to create designs tailored to the needs and demands of users. My goal is to make design simple, beautiful and functional for the user. My Skills:User Research: Prototyping by understanding user needs and usage patterns.Interface Design: Responsive and Interactive UI Design.Tools: Sketch, Adobe XD, Figma, Invision, Photoshop and Illustrator.Prototyping and Testing: Creating interactive prototypes and testing with the user.Collaboration: Working together with developers and stakeholders.Experience:E-commerce sites: Responsive design that improves the user's purchasing experience.Mobile App: User-friendly mobile app design with easy and precise navigation.Web Applications: Clean and functional UI design for complex data and workflows.  I believe, every design can solve user's problem and bring benefits to their life. I am always ready to take on new challenges and create optimal design solutions.",
     href: "",
   },
-  {
-    id: 3,
-    name: "Digital Marketing",
-    desc: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Amet deserunt ipsam laborum. Facere, soluta nemo. Et eius accusamus reiciendis sapiente?",
-    href: "",
-  },
-  {
-    id: 4,
-    name: "SEO",
-    desc: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Amet deserunt ipsam laborum. Facere, soluta nemo. Et eius accusamus reiciendis sapiente?",
-    href: "",
-  }
+  // {
+  //   id: 3,
+  //   name: "Digital Marketing",
+  //   desc: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Amet deserunt ipsam laborum. Facere, soluta nemo. Et eius accusamus reiciendis sapiente?",
+  //   href: "",
+  // },
+  // {
+  //   id: 4,
+  //   name: "SEO",
+  //   desc: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Amet deserunt ipsam laborum. Facere, soluta nemo. Et eius accusamus reiciendis sapiente?",
+  //   href: "",
+  // }
 ];
 import { motion } from "framer-motion";
 
