@@ -11,8 +11,8 @@ const PageTransitionEvent = ({ children }) => {
       <motion.div
         key={pathName}
         initial={{ opacity: 0 }}
-        animate={{ opacity: 1, transition: { duration: 0.4, ease: "easeInOut" } }}
-        exit={{ opacity: 0, transition: { duration: 0.4, ease: "easeInOut" } }}
+        animate={{ opacity: 1, transition: { duration: 0.1, ease: "easeInOut" } }}
+        exit={{ opacity: 0, transition: { duration: 0.2, ease: "easeInOut" } }}
         style={{ position: 'relative', zIndex: 1 }}
       >
         {children}
