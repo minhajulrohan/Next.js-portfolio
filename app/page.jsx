@@ -5,7 +5,7 @@ import Link from 'next/link'
 import Social from "@/components/Social";
 import State from "@/components/State";
 import Photo from "@/components/Photo";
-
+import Servi from "@/components/Servi"
 
 
 const page = () => {
@@ -45,6 +45,10 @@ const page = () => {
         </div>
         {/* State */}
         <State />
+        <div className="mt-10">
+          <Servi />
+        </div>
+        
       </div>
     </section>
   )
