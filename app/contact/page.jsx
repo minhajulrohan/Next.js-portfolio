@@ -157,6 +157,7 @@ const Contact = () => {
               <Button size="md" className="max-w-40 h-[40px]" type="submit">
                 Send Message
               </Button>
+
               <p>{status}</p>
             </form>
           </div>
