@@ -59,8 +59,8 @@ const experienceData = [
 
 const educationData = [
   {
-    title: "My Education",
-    description: "Hi I have done my learning from youtube and I am doing my learning from different resources and always trying something new skiil. I will know more in the future, although software developers have to work with new technologies all the time. Share with you how my learning experience was.",
+    title: "Technology Education",
+    description: "I started my software development journey by learning from YouTube and various online resources. Constantly trying to learn new skills. Trying to improve myself by learning something new everyday. As software developers, we always have to work with new technologies and this learning process never ends. I plan to learn more in the future and I am confident that this journey will take me to new horizons.",
     items: [
       {
         institute: "LWS Learn With Sumit",
@@ -70,6 +70,11 @@ const educationData = [
       {
         institute: "Anisul Islam",
         degree: "Front-end Track",
+        duration: "2022-2023",
+      },
+      {
+        institute:"Ali Hossain",
+        degree: "Procoder BD HTML CSS JavaScript",
         duration: "2022",
       },
     ]
@@ -173,7 +178,7 @@ const Resume = () => {
                           <TooltipProvider delayDuration={100}>
                             <Tooltip>
                             <TooltipTrigger className="w-[150px] h-[150px] bg-[#232329] rounded-xl flex justify-center items-center group-hover:text-accent">
-                            <div className="text-6xl group-hover:text-accent transition-all duration-300">{skillItem.icon}</div>
+                            <div className="text-6xl hover:text-accent transition-all duration-300">{skillItem.icon}</div>
                             </TooltipTrigger>
                             <TooltipContent>
                               {skillItem.name}
