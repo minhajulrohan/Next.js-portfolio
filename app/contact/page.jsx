@@ -165,12 +165,12 @@ const Contact = () => {
             <ul className="flex flex-col gap-10">
               {info.map((item) => (
                 <li key={item.id} className="flex items-center gap-6">
-                  <div className="w-[52px] h-[52px] xl:h-[52px] bg-[#27272c] rounded-md flex items-center justify-center text-xl text-accent">
+                  <div className="w-[52px] h-[52px] xl:h-[52px] bg-[#27272c] rounded-md flex items-center justify-center text-md text-accent">
                     {item.icon}
                   </div>
                   <div className="flex-1">
                     <h4 className="text-white/60 text-md">{item.title}</h4>
-                    <p className="text-white text-xl font-semibold">{item.des}</p>
+                    <p className="text-white text-md font-semibold">{item.des}</p>
                   </div>
                 </li>
               ))}
