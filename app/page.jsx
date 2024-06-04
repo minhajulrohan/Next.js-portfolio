@@ -6,7 +6,7 @@ import Social from "@/components/Social";
 import State from "@/components/State";
 import Photo from "@/components/Photo";
 import Servi from "@/components/Servi"
-import Servi from "@/components/Rusume.jsx"
+import Servi from "@/components/Rusume"
 
 const page = () => {
   return (
