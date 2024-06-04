@@ -6,8 +6,8 @@ import Social from "@/components/Social";
 import State from "@/components/State";
 import Photo from "@/components/Photo";
 import Servi from "@/components/Servi"
-import Servi from "@/components/Rusume"
-
+import Resume from "@/components/Rusume"
+import Work from "@/components/Work"
 const page = () => {
   return (
     <section className="h-full">
