@@ -52,7 +52,15 @@ const page = () => {
         <div className="mt-10">
           <Servi />
         </div>
-        
+        <div className="mt-10">
+        <Resume />
+        </div>
+         <div className="mt-10">
+        <Work />
+        </div>   
+        <div className="mt-10">
+        <Contact />
+        </div>  
       </div>
     </section>
   )
