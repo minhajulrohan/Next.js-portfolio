@@ -5,9 +5,13 @@ import Link from 'next/link'
 import Social from "@/components/Social";
 import State from "@/components/State";
 import Photo from "@/components/Photo";
-import Servi from "@/components/Servi"
-import Resume from "@/components/Rusume"
-import Work from "@/components/Work"
+import Servi from "@/components/Servi";
+import Resume from "@/components/Rusume";
+import Work from "@/components/Work";
+import Contact from "@/components/Contact";
+
+
+
 const page = () => {
   return (
     <section className="h-full">
