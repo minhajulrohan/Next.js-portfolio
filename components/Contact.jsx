@@ -110,13 +110,13 @@ const Contact = () => {
               <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                 <Input
                   type="text"
-                  placeholder="your name"
+                  placeholder="Your name"
                   value={name}
                   onChange={(e) => setName(e.target.value)}
                 />
                 <Input
                   type="text"
-                  placeholder="your Subject"
+                  placeholder="Your Subject"
                   value={subject}
                   onChange={(e) => setSubject(e.target.value)}
                 />
@@ -128,7 +128,7 @@ const Contact = () => {
                 />
                 <Input
                   type="email"
-                  placeholder="your email"
+                  placeholder="Your email"
                   value={email}
                   onChange={(e) => setEmail(e.target.value)}
                 />
@@ -143,7 +143,6 @@ const Contact = () => {
                     <SelectItem value="Web Development">Web Development</SelectItem>
                     <SelectItem value="UI/UX Design">UI/UX Design</SelectItem>
                     <SelectItem value="SEO">SEO</SelectItem>
-                    <SelectItem value="Digital Marketing">Digital Marketing</SelectItem>
                   </SelectGroup>
                 </SelectContent>
               </Select>
