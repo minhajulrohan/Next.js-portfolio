@@ -143,7 +143,7 @@ const Contact = () => {
                     <SelectItem value="Web Development">Web Development</SelectItem>
                     <SelectItem value="UI/UX Design">UI/UX Design</SelectItem>
                     <SelectItem value="SEO">SEO</SelectItem>
-                    <SelectItem value="Digital marketing">Digital marketing</SelectItem>
+                    <SelectItem value="Digital Marketing">Digital Marketing</SelectItem>
                   </SelectGroup>
                 </SelectContent>
               </Select>
