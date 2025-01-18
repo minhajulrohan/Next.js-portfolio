@@ -7,6 +7,8 @@ import {
   FaFigma,
   FaReact,
   FaNodeJs,
+  FaPhp,
+  FaLaravel,
 } from "react-icons/fa"
 import { SiTailwindcss, SiNextdotjs } from "react-icons/si";
 
@@ -98,6 +100,8 @@ const skillData = [
       { icon: <SiNextdotjs />, name: "Next.js" },
       { icon: <FaNodeJs />, name: "Node.js" },
       { icon: <FaFigma />, name: "Template Design" },
+      { icon: <FaPhp />, name: "PHP" },
+      { icon: <FaLaravel />, name: "Laravel" },
     ]
   }
 ]
