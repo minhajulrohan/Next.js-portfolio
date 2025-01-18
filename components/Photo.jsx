@@ -8,7 +8,7 @@ const Photo = () => {
       <motion.div initial={{opacity:"0"}} animate={{opacity: 1, transition: {delay:2 , duration: 0.4, ease: "easeIn"}}}>
         <div className="w-[360px] h-[360px] xl:w-[400px] xl:h-[400px] mix-blend-lighten absolute xl:mt-10">
           <Image
-            src="/assets/myimage.jpg" 
+            src="/assets/myimg.png" 
             priority 
             quality={100} 
             fill 
