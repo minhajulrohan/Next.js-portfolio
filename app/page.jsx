@@ -9,11 +9,15 @@ import Servi from "@/components/Servi";
 import Resume from "@/components/Rusume";
 import Work from "@/components/Work";
 import Contact from "@/components/Contact";
+import Head from 'next/head';
 
 
 
 const page = () => {
   return (
+  <Head>
+    <meta name="monetag" content="1d57bec3b0d47c8a86936841e18dfcf5">
+   </Head>
     <section className="h-full">
       <div className="container mx-auto">
 
